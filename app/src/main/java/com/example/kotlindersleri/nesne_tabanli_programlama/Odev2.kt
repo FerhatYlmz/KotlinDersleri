@@ -25,4 +25,31 @@ class Odev2 {
         return word.count { it == 'a' || it == 'A' }
     }
 
+    fun icAciToplami(kenarSayisi: Int): Int {
+        return (kenarSayisi - 2) * 180
+    }
+
+    fun maasHesapla(gunSayisi: Int): Int {
+        val toplamSaat = gunSayisi * 8
+        return if (toplamSaat <= 160) {
+            toplamSaat * 10
+        } else {
+            val mesaiSaati = toplamSaat - 160
+            (160 * 10) + (mesaiSaati * 20)
+        }
+    }
+
+    fun kotaUcretiHesapla(kotaGb: Int): Int {
+        return if (kotaGb <= 50) {
+            100
+        } else {
+            val asimGb = kotaGb - 50
+            100 + (asimGb * 4)
+        }
+    }
+
+
+
+
+
 }
