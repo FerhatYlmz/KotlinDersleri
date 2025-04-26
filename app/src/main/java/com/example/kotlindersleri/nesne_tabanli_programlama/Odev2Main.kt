@@ -88,4 +88,3 @@ fun kotaUcretiHesapla(kotaGb: Int): Int {
         100 + (asimGb * 4)
     }
 }
-

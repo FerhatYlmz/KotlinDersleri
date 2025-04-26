@@ -4,3 +4,6 @@ fun main() {
     val odev1 = Odev1()
     odev1.bilgileriYazdir()
 }
+
+
+

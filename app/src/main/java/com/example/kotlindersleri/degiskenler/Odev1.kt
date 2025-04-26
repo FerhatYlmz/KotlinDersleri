@@ -74,6 +74,8 @@ class Odev1 {
     // Yemek
     val yemekFiyati: Double = 120.0
 
+
+
     fun bilgileriYazdir() {
         // Ekrana Yazdır
         println("Müşteri Adı: $musteriAdi")

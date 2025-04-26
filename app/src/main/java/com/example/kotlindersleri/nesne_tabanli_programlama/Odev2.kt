@@ -47,9 +47,4 @@ class Odev2 {
             100 + (asimGb * 4)
         }
     }
-
-
-
-
-
 }
